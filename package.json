@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend Application Using Electron and with integration of OpenAI and Supabase.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Extiianbot/frontend.git"
+  },
+  "author": "Ekyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Extiianbot/frontend/issues"
+  },
+  "homepage": "https://github.com/Extiianbot/frontend#readme",
+  "devDependencies": {
+    "electron": "^24.4.0"
+  }
+}
