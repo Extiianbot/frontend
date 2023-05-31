@@ -21,15 +21,17 @@ if(form) {
 
 function alertMessage(status, sentence){
     window.Toastify.showToast({
-        text: "This is a toast",
+        text: sentence,
         duration: 5000,
-        stopOnFocus: true, 
+        stopOnFocus: true,
+
         style: {
           background: status == "error" ? "red":"green",
           textAlign: "center",
           color: "white",
           margin: "2px",
-          padding: "5px"
+          padding: "12px 20px",
         }
+
       });
 }
