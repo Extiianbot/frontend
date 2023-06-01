@@ -23,6 +23,8 @@ const createWindow = () => {
 
   win.loadFile(path.join(__dirname, './renderer/index.html'));
 }; 
+
+
 //Initialize Function
 app.whenReady().then(() => {
   ipcMain.handle('axios.openAI', openAI)
